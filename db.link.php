@@ -1,16 +1,16 @@
 <?php
 	class db{
 		//Host
-		private $host = 'localhost';
+		private $host = '';
 
 		//Usuario
-		private $usuario = 'root';
+		private $usuario = '';
 
 		//Senha
 		private $password = '';
 
 		//Banco de Dados
-		private $database = 'visibil_tecnologia';
+		private $database = '';
 
 		public function conecta_mysql(){
 
